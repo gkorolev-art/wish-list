@@ -1,0 +1,11 @@
+.header__avatar {
+  font-size: 0;
+  clip-path: circle(50%);
+  max-width: 200px;
+}
+/*
+@media screen and (max-width: 638px) {
+  .header__avatar {
+    align-self: center;
+  }
+}*/

@@ -1,0 +1,7 @@
+.item__heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.21;
+  grid-column: span 3;
+}

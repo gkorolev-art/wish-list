@@ -1,0 +1,21 @@
+.intro {
+  margin-bottom: 45px;
+  display: grid;
+  grid-template-columns: 200px auto;
+  column-gap: 45px;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+  grid-template-areas:
+    ". heading"
+    "choise description";
+}
+/*
+@media screen and (max-width: 638px) {
+  .intro {
+    max-width: 282px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}*/

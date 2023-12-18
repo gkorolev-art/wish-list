@@ -1,0 +1,31 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__avatar/header__avatar.css);
+@import url(../blocks/header/__author/header__author.css);
+@import url(../blocks/header/__heading/header__heading.css);
+@import url(../blocks/header/__text/header__text.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__heading/intro__heading.css);
+@import url(../blocks/intro/__text/intro__text.css);
+
+@import url(../blocks/elements/elements.css);
+@import url(../blocks/elements/__list/elements__list.css);
+
+@import url(../blocks/item/item.css);
+@import url(../blocks/item/__link/item__link.css);
+@import url(../blocks/item/__picture/item__picture.css);
+@import url(../blocks/item/__caption/item__caption.css);
+@import url(../blocks/item/__headimg/item__heading.css);
+@import url(../blocks/item/__price/item__price.css);
+
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__title/checkbox__title.css);
+@import url(../blocks/checkbox/__input/checkbox__input.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wish-list by Gregory" />
+  <meta name="keywords" content="new year, birthday, wish-list, presents" />
+  <meta name="author" content="Gregory Carroll" />
+  <title lang="en">Gregory's wish-list</title>
+  <link rel="stylesheet" href="./pages/index.css" />
+  <script type="module" src="./scripts/index.js" defer></script>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="header__avatar" src="./images/GK.png" alt="аватар автора" />
+    <div class="header__author">
+      <h1 class="header__heading">Wish-list 2024</h1>
+      <p class="header__text">by Gregory Carroll</p>
+    </div>
+  </header>
+  <main aria-label="Список желаний">
+    <section class="intro">
+      <h2 class="intro__heading">Дорогие друзья!</h2>
+      <p class="intro__text">
+        Грядёт Новый год и мой день рождения... Грядёт Новый год и мой день
+        рождения... Грядёт Новый год и мой день рождения... Грядёт Новый год и
+        мой день рождения... Грядёт Новый год и мой день рождения...
+      </p>
+    </section>
+    <section class="elements" aria-label="Варианты подарков">
+      <ul class="elements__list">
+        <template id="card">
+          <li class="item">
+            <a class="item__link" href="#" target="_blank">
+              <img class="item__picture" src="#" alt="#" />
+              <div class="item__caption">
+                <h2 class="item__heading"></h2>
+                <p class="item__price"></p>
+                <label class="checkbox" for="my-choise">
+                  <span class="checkbox__title">Выбрать</span>
+                  <input class="checkbox__input" type="checkbox" id="my-choise">
+                </label>
+              </div>
+            </a>
+          </li>
+        </template>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__text" lang="en">
+      &copy; 2023&#8594;2024 Gregory Carroll
+    </p>
+  </footer>
+</body>
+
+</html>

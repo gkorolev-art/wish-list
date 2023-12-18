@@ -1,0 +1,8 @@
+.checkbox {
+  grid-column-start: 3;
+  user-select: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
