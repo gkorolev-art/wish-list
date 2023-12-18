@@ -4,3 +4,15 @@
   font-weight: 500;
   color: #545454;
 }
+
+@media screen and (max-width: 968px) {
+  .header__text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .header__text {
+    text-align: center;
+  }
+}

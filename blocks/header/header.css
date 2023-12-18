@@ -4,12 +4,18 @@
   margin: 45px auto;
   padding-bottom: 45px;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-  font-size: 0;
 }
-/*
+
+@media screen and (max-width: 968px) {
+  .header {
+    padding-bottom: 30px;
+    margin: 30px auto;
+  }
+}
+
 @media screen and (max-width: 638px) {
   .header {
-    margin: 28px auto 42px;
-    row-gap: 31.6px;
+    flex-direction: column;
+    row-gap: 20px;
   }
-}*/
+}
