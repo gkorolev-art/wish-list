@@ -1,5 +1,6 @@
 .header__avatar {
   font-size: 0;
+  -webkit-clip-path: circle(50%);
   clip-path: circle(50%);
   max-width: 200px;
 }
@@ -12,6 +13,8 @@
 
 @media screen and (max-width: 638px) {
   .header__avatar {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
   }
 }

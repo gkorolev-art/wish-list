@@ -1,5 +1,9 @@
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 45px;
+  -moz-column-gap: 45px;
   column-gap: 45px;
   margin: 45px auto;
   padding-bottom: 45px;
@@ -15,6 +19,9 @@
 
 @media screen and (max-width: 638px) {
   .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     row-gap: 20px;
   }

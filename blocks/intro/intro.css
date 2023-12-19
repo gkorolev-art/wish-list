@@ -1,8 +1,13 @@
 .intro {
   margin-bottom: 45px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 200px 45px auto;
   grid-template-columns: 200px auto;
+  -webkit-column-gap: 45px;
+  -moz-column-gap: 45px;
   column-gap: 45px;
+  -ms-grid-rows: auto 20px auto;
   grid-template-rows: auto auto;
   row-gap: 20px;
   grid-template-areas:
@@ -14,8 +19,14 @@
   .intro {
     max-width: 581px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
