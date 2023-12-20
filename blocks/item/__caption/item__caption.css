@@ -1,8 +1,11 @@
 .item__caption {
   padding: 20px 21px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto 10px 1fr 10px auto;
-  grid-template-columns: auto 1fr auto;
-  gap: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 20px;
 }

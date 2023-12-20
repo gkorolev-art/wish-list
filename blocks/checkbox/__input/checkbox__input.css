@@ -4,11 +4,14 @@
   appearance: none;
   cursor: pointer;
   font-size: 0;
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 .checkbox__input::after {
   content: "";
   display: inline-block;
+  vertical-align: bottom;
   margin-left: 10px;
   width: 18px;
   height: 18px;
@@ -36,6 +39,7 @@
 }
 /* стили для чекбокса, находящегося в фокусе */
 .checkbox__input:focus::after {
+  -webkit-box-shadow: 0 0 0 2px rgba(248, 124, 86, 0.4);
   box-shadow: 0 0 0 2px rgba(248, 124, 86, 0.4);
 }
 /* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */

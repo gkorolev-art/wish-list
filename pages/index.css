@@ -20,7 +20,8 @@
 @import url(../blocks/item/__link/item__link.css);
 @import url(../blocks/item/__picture/item__picture.css);
 @import url(../blocks/item/__caption/item__caption.css);
-@import url(../blocks/item/__headimg/item__heading.css);
+@import url(../blocks/item/__heading/item__heading.css);
+@import url(../blocks/item/__footer/item__footer.css);
 @import url(../blocks/item/__price/item__price.css);
 
 @import url(../blocks/checkbox/checkbox.css);
