@@ -50,3 +50,11 @@
 .checkbox__input:disabled::after {
   background-color: #e9ecef;
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    .checkbox__input::after {
+      margin-bottom: 5px;
+    }
+  }
+}
