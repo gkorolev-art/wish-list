@@ -1,4 +1,5 @@
 .item__caption {
+  font-size: 18px;
   padding: 20px 21px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,4 +9,5 @@
   -ms-flex-direction: column;
   flex-direction: column;
   row-gap: 20px;
+  user-select: none;
 }
