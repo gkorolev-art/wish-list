@@ -1,6 +1,12 @@
 .page {
   max-width: 880px;
-  background-color: #f87c56;
+  background: linear-gradient(
+      217deg,
+      rgb(248 124 86 / 1),
+      rgba(204, 84, 248, 0.2) 70.71%
+    ),
+    linear-gradient(127deg, rgb(252 190 172 / 1), rgb(252, 202, 186) 70.71%),
+    linear-gradient(336deg, rgb(122 84 248 / 0.4), rgb(248 204 84 / 1) 70.71%);
   color: #180601;
   margin: auto;
   font-family: "Inter", "Arial", "Helvetica", sans-serif;

@@ -4,4 +4,5 @@
   appearance: none;
   cursor: pointer;
   position: absolute;
+  left: -99999px;
 }
